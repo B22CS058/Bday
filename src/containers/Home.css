@@ -1,0 +1,9 @@
+/* Home.css */
+.home-image {
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+  }
+  
+  .home-image:hover {
+    transform: scale(2); /* Scale the image to 1.1 times its original size on hover */
+  }
+  

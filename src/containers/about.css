@@ -1,0 +1,10 @@
+.video-container {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2); /* Add border shadow */
+    overflow: hidden; /* Hide overflow to ensure cropping */
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .video-cropped {
+    clip-path: inset(10% 10% 10% 10%); /* Crop the video */
+  }
+  
